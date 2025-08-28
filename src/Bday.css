@@ -1,0 +1,652 @@
+.bday-background{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./bday-bg54.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    animation: fadeIn 1s ease-in forwards;
+ 
+}
+.bday-background div{
+    height: 100%;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.379); */
+    backdrop-filter: blur(2px);
+    /* background:rgba(137, 43, 226, 0.144); */
+    background: transparent;
+    position: absolute;
+    z-index: 1000;
+
+}
+.bday-background div h1{
+    font-size: 50px;
+    position: relative;
+    top: 390px;
+    color: ivory;
+    font-style: oblique;
+    font-family:'Segoe UI', sans-serif;
+    left: 130px;
+}
+.bday-background div button{
+    height: 43px;
+    width: 150px;
+    border: 1px solid ivory;
+    font-size: 19px;
+    background-color: #8B5A3C;
+    border-radius: 8px ;
+    color: ivory;
+    font-family:'Segoe UI', sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    position: relative;
+    top: 420px;
+    left: 120px;
+}
+.bday-background div button:hover,  .bday-button1:hover{
+    background-color: ivory;
+   color:#8B5A3C;
+   border: 1px solid #8B5A3C;
+}
+.bday-background div .bday-button1{
+    height: 40px;
+    width: 150px;
+    border: 2px solid #8B5A3C;
+    font-size: 19px;
+    /* background-color: ivory; */
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border-radius: 8px ;
+    color:ivory;
+   font-family:'Segoe UI', sans-serif;
+    /* font-style: oblique; */
+    font-weight: 600;
+    position: relative;
+    top: 420px;
+    left: 150px;
+   
+}
+.bday-video{
+    height: 100vh;
+    width: 100vw;
+    background-color: #D8CAB8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s ease-in forwards;
+}
+.bday-video div{
+    height: 80%;
+    width: 70%;
+    border-radius: 45px;
+}
+.bday-video div video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 45px;
+}
+.bday-matter{
+    height: 100vh;
+    width: 100vw;
+    background-color:#F8EDE3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bday-matter-left{
+    height: 90%;
+    width:50% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.bday-matter-left h1{
+    font-size:40px ;
+    font-family:'Segoe UI', sans-serif;
+    font-style: oblique;
+    color: #8B5A3C;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.537);  
+}
+.bday-matter-left div{
+    font-size: 28px;
+    font-weight: 600;
+    font-style: oblique;
+    font-family:'Segoe UI', sans-serif;
+    text-align: justify;
+    text-align: center;
+    color:#3B2E2A;
+    text-shadow: 5px 5px 13px rgba(0, 0, 0, 0.26); 
+}
+.bday-matter-left p{
+    font-size: 17px;
+    text-align: justify;
+    font-family:'Segoe UI', sans-serif;
+    font-style: italic;
+    text-indent: 35px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123); 
+}
+.bday-matter-right{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:  transform 0.4s;
+}
+.bday-matter-right div{
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    background-image: url(bday-bg2.jpeg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    transform: transform 0.6s;
+}
+
+.bday-matter-right div:hover{
+    transform: scale(1.08);
+}
+.bday-cards{
+    height: 120vh;
+    width: 100vw;
+    background-color: #F8EDE3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: fadeIn 1s ease-in forwards;
+}
+.bday-card-box1{
+    height: 55%;
+    width: 23%;
+    background-color: #8b5a3c8e;
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition:  transform 0.4s;
+
+}
+.bday-box1-top{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bday-box1-top div{
+    height: 90%;
+    width: 90%;
+    background-image: url(./bday-decor.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.bday-box1-top .bday-box2-img{
+    height: 90%;
+    width: 90%;
+    background-image: url(./game2.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.bday-box1-top .bday-box3-img{
+    height: 90%;
+    width: 90%;
+    background-image: url(./dj-bg1.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.bday-box1-top .bday-box4-img{
+    height: 90%;
+    width: 90%;
+    background-image: url(./cake2.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.bday-box1-down{
+    height: 25%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.bday-box1-down h1{
+    font-size: 25px;
+    font-family:'Segoe UI', sans-serif;
+    font-style: oblique;
+    color: ivory;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.566); 
+
+}
+.bday-box1-down button{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    background-color: ivory;
+    color: #8B5A3C;
+    font-family:'Segoe UI', sans-serif;
+    font-style: italic;
+    border: 2px solid white;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+.bday-box1-down button:hover{
+    background-color: #8B5A3C;
+    color: ivory;
+}
+.bday-card-box2{
+    height: 55%;
+    width: 23%;
+    background-color: #8b5a3c8e;
+    position: relative;
+    top: 100px;
+    transition:  transform 0.4s;
+}.bday-card-box3{
+    height: 55%;
+    width: 23%;
+    background-color: #8b5a3c8e;
+    position: relative;
+    bottom: 100px;
+    transition:  transform 0.4s;
+}.bday-card-box4{
+    height: 55%;
+    width: 23%;
+   transition:  transform 0.4s;
+
+    background-color: #8b5a3c8e;
+    position: relative;
+    top: 100px;
+}
+.bday-card-box1:hover, .bday-card-box2:hover, .bday-card-box3:hover, .bday-card-box4:hover {
+    transform: translateY(-10px);
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+/* Mobile Devices (≤ 480px) */
+@media only screen and (max-width: 480px) {
+    .bday-background div h1 {
+      font-size: 28px;
+      top: 200px;
+      left: 30px;
+    }
+  
+    .bday-background div button,
+    .bday-background div .bday-button1 {
+      height: 38px;
+      width: 130px;
+      font-size: 16px;
+      top: 220px;
+      left: 30px;
+    }
+  
+    .bday-matter {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .bday-matter-left, .bday-matter-right {
+      width: 100%;
+      height: auto;
+    }
+  
+    .bday-matter-left h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .bday-matter-left div, .bday-matter-left p {
+      font-size: 16px;
+      padding: 0 10px;
+    }
+  
+    .bday-cards {
+      flex-direction: column;
+      height: auto;
+      gap: 30px;
+      padding-bottom: 50px;
+    }
+  
+    .bday-card-box1,
+    .bday-card-box2,
+    .bday-card-box3,
+    .bday-card-box4 {
+      width: 80%;
+      height: auto;
+      position: static;
+    }
+  
+    .bday-video div {
+      width: 90%;
+      height: auto;
+    }
+  }
+  
+  /* Tablets (481px - 768px) */
+  @media only screen and (max-width: 768px) {
+    .bday-background div h1 {
+      font-size: 36px;
+      top: 250px;
+      left: 50px;
+    }
+  
+    .bday-background div button,
+    .bday-background div .bday-button1 {
+      height: 40px;
+      width: 140px;
+      font-size: 17px;
+      top: 280px;
+      left: 50px;
+    }
+  
+    .bday-matter {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .bday-matter-left, .bday-matter-right {
+      width: 100%;
+      height: auto;
+    }
+  
+    .bday-cards {
+      flex-direction: column;
+      gap: 40px;
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .bday-card-box1,
+    .bday-card-box2,
+    .bday-card-box3,
+    .bday-card-box4 {
+      width: 70%;
+      height: auto;
+      position: static;
+    }
+  
+    .bday-video div {
+      width: 90%;
+      height: auto;
+    }
+  }
+  
+  /* Small Laptops (769px - 1024px) */
+  @media only screen and (max-width: 1024px) {
+    .bday-cards {
+      flex-wrap: wrap;
+      gap: 30px;
+      height: auto;
+      padding-bottom: 40px;
+    }
+  
+    .bday-card-box1,
+    .bday-card-box2,
+    .bday-card-box3,
+    .bday-card-box4 {
+      width: 40%;
+      height: auto;
+      position: static;
+    }
+  
+    .bday-matter {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .bday-matter-left, .bday-matter-right {
+      width: 90%;
+    }
+  
+    .bday-video div {
+      width: 90%;
+      height: auto;
+    }
+  }
+
+  
+  
+
+/* Bday.css - Updated Version */
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap');
+
+.bday-background {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(135deg, #f6d365 0%, #fda085 100%), url(./bday-bg54.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.bday-background div {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 1000;
+}
+
+.bday-video {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff5e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 2s ease;
+}
+
+.bday-video div {
+    height: 80%;
+    width: 70%;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.bday-video div video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.bday-matter {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bday-matter-left {
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bday-matter-left h1 {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #b85c38;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.bday-matter-left div {
+    font-size: 26px;
+    font-weight: 600;
+    color: #6b00b6;
+    text-align: center;
+}
+
+.bday-matter-left p {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 35px;
+    line-height: 1.6;
+    font-style: italic;
+    color: #555;
+}
+
+.bday-matter-right {
+    height: 90%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bday-matter-right div {
+    height: 90%;
+    width: 90%;
+    background-image: url(./bday-bg2.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s;
+}
+
+.bday-matter-right div:hover {
+    transform: scale(1.08);
+}
+
+.bday-cards {
+    height: 120vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bday-card-box1, .bday-card-box2, .bday-card-box3, .bday-card-box4 {
+    height: 55%;
+    width: 23%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s;
+}
+
+.bday-card-box1:hover, .bday-card-box2:hover, .bday-card-box3:hover, .bday-card-box4:hover {
+    transform: translateY(-10px);
+}
+
+.bday-box1-top {
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bday-box1-top div, .bday-box1-top .bday-box2-img, .bday-box1-top .bday-box3-img, .bday-box1-top .bday-box4-img {
+    height: 90%;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.bday-box1-down {
+    height: 25%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;
+}
+
+.bday-box1-down h1 {
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #333;
+}
+
+.bday-box1-down button {
+    height: 40px;
+    width: 140px;
+    font-size: 16px;
+    background-color: #ff7eb9;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    border: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.bday-box1-down button:hover {
+    background-color: #ff65a3;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.bday-box1-top div{
+    height: 90%;
+    width: 90%;
+    background-image: url(./bday-decor.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.bday-box1-top .bday-box2-img{
+    height: 90%;
+    width: 90%;
+    background-image: url(./game2.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.bday-box1-top .bday-box3-img{
+    height: 90%;
+    width: 90%;
+    background-image: url(./dj-bg1.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.bday-box1-top .bday-box4-img{
+    height: 90%;
+    width: 90%;
+    background-image: url(./cake2.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.bday-card-box1, .bday-card-box3{
+    position: relative;
+    bottom: 100px;   
+}
+.bday-card-box2, .bday-card-box4{
+    position: relative;
+     top: 100px;
+} */

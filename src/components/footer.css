@@ -1,0 +1,190 @@
+/* .footer-background{
+    height: 95vh;
+    width: 100vw;
+    background-color: red;
+    /* background-image: url(./bride22.jpeg); 
+    background-color: #8B5A3C;
+    background-size: 100% 100%;
+    position: relative;
+
+} */
+.footer-background {
+    width: 100vw;
+    overflow: visible;
+    height: auto;
+    background-color: #8B5A3C;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.footer-bg-matter{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.379); 
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+
+}
+.footer-icons{
+    height: 60px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.footer-icons i{
+    font-size: 30px;
+    color: ivory;
+   
+}
+.footer-icons i:hover{
+    color: #8B5A3C;
+    transform: scale(1.05);
+}
+.footer-logo{
+    height: 18%;
+    display: flex;
+    justify-content: center;
+}
+.footer-logo div{
+    height: 100%;
+    width: 25%;
+    color:ivory;
+}
+.footer-logo div img{
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    color: white;
+}
+.footer-down{
+    height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-left{
+    height: 85%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer-left h1{
+    color: white;
+    text-indent: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+
+}
+.footer-left a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    text-indent: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+.footer-right{
+    height: 90%;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer-right h1{
+    color: white;
+    text-indent: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.footer-right p{
+    color: white;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.footer-last{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-last div{
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    
+}
+
+/* Tablet devices (768px and below) */
+@media (max-width: 768px) {
+    .footer-down {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      gap: 20px;
+    }
+  
+    .footer-left, .footer-right {
+      width: 90%;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .footer-logo div {
+      width: 50%;
+    }
+  
+    .footer-last {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .footer-last div {
+      width: 90%;
+      justify-content: center;
+    }
+  
+    .footer-icons {
+      gap: 20px;
+    }
+  
+    .footer-icons i {
+      font-size: 25px;
+    }
+  }
+  
+  /* Mobile devices (480px and below) */
+  @media (max-width: 480px) {
+    .footer-logo div {
+      width: 70%;
+    }
+  
+    .footer-icons i {
+      font-size: 20px;
+    }
+  
+    .footer-left h1, .footer-right h1 {
+      font-size: 20px;
+    }
+  
+    .footer-left a, .footer-right p {
+      font-size: 16px;
+    }
+  
+    .footer-last div {
+      font-size: 14px;
+    }
+  }
+  

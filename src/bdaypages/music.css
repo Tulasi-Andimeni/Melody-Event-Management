@@ -1,0 +1,195 @@
+.music-background{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    background-image: url(./dj-bg7.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.music-background div{
+    height: 100%;
+    width: 100%;
+    background:  rgba(0, 0, 0, 0.537);
+    
+}
+.music-background div h1{
+    color: white;
+    position: relative;
+    top: 420px;
+    left: 800px;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.667) ;
+}
+.music-matter{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.music-matter-left{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.music-matter-left h1{
+    font-size:47px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.537); 
+}
+.music-matter-left div{
+    font-size: 25px;
+    font-weight: 600;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: blueviolet;
+    text-shadow: 5px 5px 13px rgba(0, 0, 0, 0.26); 
+}
+.music-matter-left p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-indent: 35px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123); 
+}
+.music-matter-right{
+    height: 80%;
+    width: 40%;
+    border-radius: 55px;
+    background-image: url(./music-44.jpeg);
+    background-size: 100% 100%;
+    transition: transform 0.4s;
+}
+.music-matter-right:hover{
+    transform: scale(1.07);
+}
+.music-matter2{
+    height: 120vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.music-matter2-box1{
+    height: 95%;
+    width: 94%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.music-matter2-box1 h1{
+    font-size:47px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.537); 
+}
+.music-matter2-box1 div{
+    font-size: 25px;
+    font-weight: 600;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: blueviolet;
+    text-shadow: 5px 5px 13px rgba(0, 0, 0, 0.26); 
+    text-decoration: underline;
+}
+.music-matter2-box1 p{
+    font-size: 19px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-indent: 35px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123);
+}
+.music-matter2-box1 ul li{
+    font-size: 19px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123);
+}
+.music-matter2-box1 ul{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  left: 60px;
+}
+.music-cards{
+    height: 80vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.music-cards-box1{
+    height: 60%;
+    width: 20%;
+    position: relative;
+    bottom: 50px;
+    background-image: url(./dance5.jpeg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.music-cards-box2{
+    height: 60%;
+    width: 20%;
+    position: relative;
+    top: 50px;
+    background-image: url(./dj-pic.jpeg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.music-cards-box3{
+    height: 60%;
+    width: 20%;
+    position: relative;
+    bottom: 50px;
+    background-image: url(./dance4.jpeg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.music-cards-box4{
+    height: 60%;
+    width: 20%;
+    position: relative;
+    top: 50px;
+    background-image: url(./music-22.jpeg);
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.music-line2{
+    position: relative;
+    bottom: 65px;
+    left: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: oblique;
+    text-decoration: underline;
+    text-shadow: 5px 5px 13px rgba(0, 0, 0, 0.61); 
+    color: blueviolet;
+}
+.music-line1{
+    position: relative;
+    top: 280px;
+    left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: oblique;
+    text-decoration: underline;
+    text-shadow: 5px 5px 13px rgba(0, 0, 0, 0.596);
+}

@@ -1,0 +1,240 @@
+.stage-background{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    background-image: url(./stage-bg4.jpeg) ;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    object-fit: cover;
+}
+.stage-bgimage{
+    height: 100%;
+    width: 100%;
+    /* backdrop-filter: blur(2px); */
+    background: rgba(0, 0, 0, 0.379);
+}
+
+.stage-matter1{
+    height: 200vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.stagematter-left{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.stageleft-top{
+    height: 90%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    
+}
+.stagematter-middle{
+    height: 35%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.stageleft-down{
+    height: 80%;
+    width: 35%;
+} 
+.stageleft-top h1{
+    font-size:43px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.537);  
+}
+.stageleft-top div{
+    font-size: 28px;
+    font-weight: 600;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 5px 5px 13px rgba(0, 0, 0, 0.26); 
+}
+.stageleft-top p{
+    font-size: 19px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-indent: 35px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123); 
+}
+.stageleft-top ul{
+    margin: 0px 50px;
+    font-size: 19px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123);
+    font-style: italic;
+}
+.stagematter-right{
+    height: 90%;
+    width: 35%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.stageright-image{
+    height: 45%;
+    width: 100%;
+    
+    background-image: url(./muslims-weddingbg2.jpeg);
+    background-position: 50% 50%;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 15px;
+}
+.stageright-image:hover{
+    transform: scale(1.05);
+    background-image: url(stage-bg2.jpeg);
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.stageright-image2{
+    height: 45%;
+    width: 100%;
+   
+    background-image: url(./marriage-5.jpeg);
+    background-position: 50% 50%;
+    object-fit: cover;
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.stageright-image2:hover{
+    transform: scale(1.05);
+    background-image: url(stage-bg4.jpeg);
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.stagedown-right{
+    height:90%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.stagedown-right div{
+    font-size: 28px;
+    font-weight: 600;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: blueviolet;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+}
+.stagedown-right p{
+    font-size: 19px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-indent: 40px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123);
+}
+.stagedown-right ul{
+    margin: 0px 50px;
+    font-size: 19px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123);
+}
+.stagedown-image{
+    height: 100%;
+    width: 100%;
+    background-image: url(recipation2.jpeg);
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.stagedown-image:hover{
+    transform: scale(1.05);
+    background-image: url(reciption.jpeg);
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.stage-matter2{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:white;
+
+}
+.stagematter2-left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.stagematter2-left div{
+    font-size: 28px;
+    font-weight: 600;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: blueviolet;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+    text-indent: 150px;
+}
+.stagematter2-left p{
+    font-size: 19px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-indent: 40px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123);
+}
+.stagematter2-left ul{
+    margin: 0px 50px;
+    font-size: 19px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123);
+}
+.stagematter2-right{
+    height: 80%;
+    width: 37%;
+    background-image: url(stage-bg8.jpeg);
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+.stagematter2-right:hover{
+    transform: scale(1.03);
+    background-image: url(stage-bg6.jpeg);
+    background-size: 100% 100%;
+    border-radius: 15px;
+}
+

@@ -1,0 +1,252 @@
+
+.photo-background {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    background-image: url(./photo4.jpeg);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    animation: fadeIn 2s ease-in forwards;
+}
+.photo-background div{
+    height: 100%;
+    width: 100%;
+    /* background:  rgba(0, 0, 0, 0.537); */
+    background: transparent;
+    backdrop-filter: blur(1px);
+    
+}
+.photo-background div h1{
+    color: ivory;
+    position: relative;
+    top: 420px;
+    left: 800px;
+    font-size: 70px;
+    font-family:'Segoe UI', sans-serif;
+    font-style: oblique;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.667) ;
+}
+.photo-bg-slider{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F8EDE3;
+    display: flex;
+    flex-direction: column;
+}
+.photo-slider-img {
+    height: 35vh;
+    width: auto;  
+    background-color: #F8EDE3;
+    padding: 0 9px; 
+    box-sizing: border-box; 
+}
+
+.photo-slider-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;  
+}
+
+
+.slick-prev, .slick-next {
+    display: none;
+}
+
+
+.slick-dots {
+    bottom: 10px;   
+    text-align: center;
+}
+
+.slick-dots li button:before {
+    font-size: 20px;
+    color: #F8EDE3;
+}
+.photo-matter{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo-matter-box1{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.photo-matter-box1 h1{
+    font-size:47px ;
+    font-family:'Segoe UI', sans-serif;
+    font-style: oblique;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.537); 
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:black;
+    color: #8B5A3C;
+}
+.photo-matter-box1 div{
+    font-size: 25px;
+    font-weight: 600;
+    font-style: oblique;
+    font-family:'Segoe UI', sans-serif;
+    text-align: justify;
+    color: black;
+    text-shadow: 5px 5px 13px rgba(0, 0, 0, 0.26); 
+    text-align: center;
+}
+.photo-matter-box1 p{
+    font-size: 18px;
+    text-align: justify;
+    font-family:'Segoe UI', sans-serif;
+    font-style: italic;
+    text-indent: 35px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123); 
+      transition: color 0.3s ease;
+}
+.photo-para{
+    position: relative;
+    bottom: 24px;
+    display: flex;align-items: center;
+    justify-content: center;
+}
+.photo-cards{
+    height: 100vh;
+    background-color: #D8CAB8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.photo-card-box1{
+    height: 40%;
+    width: 18%;
+    position: relative;
+    top: 15px;
+    background-image: url(./destination.jpeg);
+    background-size: 100% 100%; 
+}
+.photo-card-box2{
+    height: 60%;
+    width: 18%;
+    position: relative;
+    top: 15px;
+    background-image: url(./photo2.jpeg);
+    background-size: cover;
+}
+.photo-card-box3{
+    height: 30%;
+    width: 25%;
+    position: relative;
+    top: 15px;
+    background-image: url(bday-bg44.jpeg);
+    background-size: cover;
+}
+.photo-card-box4{
+    height: 30%;
+    width: 20%;
+    position: relative;
+    top: 15px;
+    background-image: url(./bride22.jpeg);
+    background-size: cover;
+}
+.photo-card-box5{
+    height: 45%;
+    width: 13%;
+    position: relative;
+    top: 15px;
+    background-image: url(./baby-10.jpeg);
+    background-size: cover;
+}
+.photo-card-box6{
+    height: 52%;
+    width: 18%;
+    position: relative;
+    bottom: 83px;
+    background-image: url(./photo3.jpeg);
+    background-size: cover;
+}
+.photo-card-box7{
+    height: 31%;
+    width: 18%;
+    position: relative;
+    top: 30px;
+    background-image: url(./baby-bg77.jpeg);
+    background-size: cover;
+}
+.photo-card-box8{
+    height: 60%;
+    width: 45%;
+    position: relative;
+    bottom: 130px;
+    background-image: url(./photo4.jpeg);
+    background-size: cover;
+}
+.photo-card-box9{
+    height: 45%;
+    width: 13%;
+    position: relative;
+    bottom: 50px;
+    background-image: url(./photo1.jpeg);
+    background-size: cover;
+}
+
+.photo-cards2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #D8CAB8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.photo-card-box10{
+    height: 50%;
+    width: 32%;
+    background-image: url(./dance2.jpeg);
+    background-size: cover;
+}
+.photo-card-box11{
+    height: 50%;
+    width: 31.5%;
+    background-image: url(./makeup11.jpeg);
+    background-size: cover;
+}
+.photo-card-box12{
+    height: 50%;
+    width: 30%;
+    background-image: url(./haldi.jpeg);
+    background-size: cover;
+}
+.photo-card-box13{
+    height: 43%;
+    width: 50%;
+    background-image: url(./reciption.jpeg);
+    background-size: 100% 100%;
+}
+.photo-card-box14{
+    height: 43%;
+    width: 45%;
+    background-image: url(./marriage1.jpeg);
+    background-size: 100% 100%;
+} */
+ 
+.photo-card-box1:hover, .photo-card-box2:hover, .photo-card-box3:hover, .photo-card-box4:hover, .photo-card-box5:hover, .photo-card-box6:hover, .photo-card-box7:hover, .photo-card-box8:hover, .photo-card-box9:hover, .photo-card-box10:hover, .photo-card-box11:hover, .photo-card-box12:hover, .photo-card-box13:hover, .photo-card-box14:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+.photo-card-box1, .photo-card-box2, .photo-card-box3, .photo-card-box4, .photo-card-box5, .photo-card-box6, .photo-card-box7, .photo-card-box8, .photo-card-box9, .photo-card-box10, .photo-card-box11, .photo-card-box12, .photo-card-box13, .photo-card-box14 {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.photo-card-box1, .photo-card-box2, .photo-card-box3, .photo-card-box4, .photo-card-box5, .photo-card-box6, .photo-card-box7, .photo-card-box8, .photo-card-box9, .photo-card-box10, .photo-card-box11, .photo-card-box12, .photo-card-box13, .photo-card-box14 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-card-box1:hover, .photo-card-box2:hover, .photo-card-box3:hover, .photo-card-box4:hover, .photo-card-box5:hover, .photo-card-box6:hover, .photo-card-box7:hover, .photo-card-box8:hover, .photo-card-box9:hover, .photo-card-box10:hover, .photo-card-box11:hover, .photo-card-box12:hover, .photo-card-box13:hover, .photo-card-box14:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+

@@ -1,0 +1,307 @@
+.destination-background{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    background-image: url(./wedding-bg4.jpeg);
+    background-size: 100% 100%;
+    /* object-fit: cover; */
+    background-attachment: fixed;
+    animation: fadeIn 1s ease-in forwards;
+}
+.destination-background div{
+    height: 100%;
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0.379); */
+    background: transparent;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    z-index: 1000;
+
+}
+.destination-background div h1{
+    font-size: 50px;
+    position: relative;
+    top: 390px;
+    color: ivory;
+    font-style: oblique;
+    color: black;
+    left: 100px;
+}
+.destination-background div button{
+    height: 40px;
+    width: 150px;
+    border: 1px solid ivory;
+    font-size: 19px;
+    background-color: #8B5A3C;
+    border-radius: 8px ;
+    color: ivory;
+    font-family:'Segoe UI', sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    position: relative;
+    top: 420px;
+    left: 120px;
+}
+.destination-background div .desti-button{
+    height: 40px;
+    width: 150px;
+    border: 3px solid #8B5A3C;
+    font-size: 19px;
+    backdrop-filter: blur(3px);
+    background: transparent;
+    border-radius: 8px ;
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    position: relative;
+    top: 420px;
+    left: 150px;
+}
+.destination-background div button:hover, .desti-button:hover{
+    background-color: ivory;
+    color: #8B5A3C;
+    border: 2px solid #8B5A3C;
+}
+.destination-content{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F8EDE3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.destination-content-left{
+    height: 75%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.destination-content-left h1{
+    font-size:42px ;
+    font-family:'Segoe UI', sans-serif;
+    color: #8B5A3C;
+    font-style: oblique;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.537);  
+}
+.destination-content-left p{
+    font-size: 17px;
+    text-align: justify;
+    font-family:'Segoe UI', sans-serif;
+    font-style: italic;
+    text-indent: 35px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123); 
+}
+.destination-content-right{
+    height: 90%;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.destionation-right-box1{
+    height: 45%;
+    width: 40%;
+    background-color: #8B5A3C;
+    transform: rotate(160deg);
+    position: relative;
+    top: 65px;
+    left: 15px;
+}
+.desti-box1-img{
+    height: 100%;
+    width: 100%;
+    background-image: url(./wedding-bg3.jpeg);
+    transform: rotate(-180deg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.destionation-right-box2{
+    height: 45%;
+    width: 40%;
+    background-color: #8B5A3C;
+    transform: rotate(160deg);
+    position: relative;
+    bottom: 50px;
+    right: 5px;
+}
+.desti-box2-img{
+    height: 100%;
+    width: 100%;
+    transform: rotate(-180deg);
+    background-image: url(./wedding-bg4.jpeg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.desti-video{
+    height: 100vh;
+    width: 100vw;
+    background-color: #D8CAB8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 1s ease-in forwards;
+}
+.desti-video-box{
+    height: 80vh;
+    width: 90vw;
+   
+    border-radius: 20px;
+}
+.desti-video-box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.desti-cards{
+    height: 120vh;
+    width: 100vw;
+    background-color:#F8EDE3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: fadeIn 1s ease-in forwards;
+}
+.desti-card-box1{
+    height: 55%;
+    width: 23%;
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #8b5a3cac;
+    transition: transform 0.4s;
+}
+.desti-box1-top{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desti-box1-top div{
+    height: 90%;
+    width: 90%;
+    background-image: url(./desti44.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.desti-box2-top{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desti-box2-top div{
+    height: 90%;
+    width: 90%;
+    background-image: url(./dance.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.desti-box3-top{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desti-box3-top div{
+    height: 90%;
+    width: 90%;
+    background-image: url(./stage-bg7.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.desti-box4-top{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.desti-box4-top div{
+    height: 90%;
+    width: 90%;
+    background-image: url(./gift-2.jpeg);
+    background-size: 100% 100%;
+    border-radius: 10px;
+
+}
+.desti-box1-down{
+    height: 27%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.desti-box1-down h1{
+    font-size: 25px;
+    font-family:'Segoe UI', sans-serif;
+    font-style: oblique;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.566); 
+
+}
+.desti-box1-down button{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    background-color:ivory;
+    color: #8B5A3C;
+    font-family:'Segoe UI', sans-serif;
+    font-style: italic;
+    border: 2px solid #8B5A3C;
+    border-radius: 25px;
+    transition: 1s;
+}
+.desti-box1-down button:hover{
+    color: ivory;
+    background-color: #8B5A3C;
+}
+.desti-card-box2{
+    height: 55%;
+    width: 23%;
+    background-color: #8b5a3cac;
+    position: relative;
+    top: 100px;
+    transition: transform 0.4s;
+}
+.desti-card-box2:hover, .desti-card-box1:hover, .desti-card-box3:hover, .desti-card-box4:hover {
+    transform: translateY(-10px);
+}
+.desti-card-box3{
+    height: 55%;
+    width: 23%;
+   background-color: #8b5a3cac;
+    position: relative;
+    bottom: 100px;
+    transition: transform 0.4s;
+}.desti-card-box4{
+    height: 55%;
+    width: 23%;
+    background-color: #8b5a3cac;
+    position: relative;
+    top: 100px;
+    transition: transform 0.4s;
+}
+

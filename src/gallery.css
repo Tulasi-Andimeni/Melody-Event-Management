@@ -1,0 +1,76 @@
+.video-background {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    background-image: url(./stage-bg7.jpeg);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    animation: fadeIn 2s ease-in forwards;
+}
+.video-background div{
+    height: 100%;
+    width: 100%;
+    background:  rgba(0, 0, 0, 0.537);
+ 
+    
+}
+.video-background div h1{
+    color: ivory;
+    position: relative;
+    top: 420px;
+    left: 800px;
+    font-size: 70px;
+    font-family:'Segoe UI', sans-serif;
+    font-style: oblique;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.667) ;
+}
+.video-matter, .video-matter3{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F8EDE3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.video-matter2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #D8CAB8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.video-box1{
+    height: 75%;
+    width: 40%;
+    transition: transform 0.4s;
+}
+.video-box1:hover, .video-box2:hover, .video-box3:hover, .video-box4:hover{
+    transform: scale(1.07);
+}
+.video-box2{
+    height: 75%;
+    width: 40%;
+    transition: transform 0.4s;
+}
+.video-box1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.video-box3{
+    height: 70%;
+    width: 70%;
+    transition: transform 0.4s;
+}
+.video-box4{
+    height: 70%;
+    width: 70%;
+    transition: transform 0.4s;
+}

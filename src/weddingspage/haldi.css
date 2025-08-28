@@ -1,0 +1,201 @@
+.haldi-background{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    background-image: url(haldi.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    animation: fadeIn 1s ease-in forwards;
+}
+.haldibg-blur{
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(3px);
+}
+.haldibg-matter{
+    height: 115vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: fadeIn 1s ease-in forwards;
+}
+.haldi-matter-left1 h2{
+    font-size:43px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.537);  
+}
+.haldi-matter-left1 div{
+    font-size: 28px;
+    font-weight: 600;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 5px 5px 13px rgba(0, 0, 0, 0.26); 
+}
+.haldi-matter-left1 p{
+    font-size: 19px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-indent: 35px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123); 
+}
+.haldi-matter-left1 ul{
+    margin: 0px 50px;
+    font-size: 19px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123);
+    font-style: italic;
+}
+.haldi-matter-right1{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.haldi-right-image1{
+    height: 45%;
+    width: 98%;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./haldi-pic.jpeg);
+    background-size: 100% 100%;
+    transition: transform 0.4s;
+}
+.haldi-right-image1 div{
+    height: 94%;
+    width: 97%;
+    background-image: url(haldi-bg1.jpeg);
+    background-size: 100% 100%;
+    transition: transform 0.4s;
+}
+.haldi-right-image2{
+    height: 45%;
+    width: 98%;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./desti44.jpeg);
+    background-size: 100% 100%;
+    transition: transform 0.4s;
+}
+.haldi-right-image2 div{
+    height: 94%;
+    width: 97%;
+    /* background-image: url(haldi-bg1.jpeg); */
+    background-size: 100% 100%;
+}
+
+
+.haldibg-matter2{
+    height: 115vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.haldimatter-left2{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.haldimatter-right2{
+    height: 90%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.haldimatter-right2 div{
+    font-size: 28px;
+    font-weight: 600;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 5px 5px 13px rgba(0, 0, 0, 0.26); 
+}
+.haldimatter-right2 p{
+    font-size: 19px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-indent: 35px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123); 
+}
+.haldimatter-right2 ul{
+    margin: 0px 50px;
+    font-size: 19px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.123);
+    font-style: italic;
+}
+.haldi-matter-left1{
+    height: 90%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.haldi-left-image1{
+    height: 45%;
+    width: 98%;
+    background-color: antiquewhite; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./haldi-22.jpeg);
+    background-size: 100% 100%;
+    transition: transform 0.4s;
+}
+.haldi-left-image1 div{
+    height: 94%;
+    width: 97%;
+    background-image: url(haldi-bg1.jpeg);
+    background-size: 100% 100%;
+    transition: transform 0.4s;
+}
+.haldi-left-image2{
+    height: 45%;
+    width: 98%;
+    background-color: antiquewhite; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./haldi-55.jpeg);
+    background-size: 100% 100%;
+    transition: transform 0.4s;
+}
+.haldi-left-image2 div{
+    height: 94%;
+    width: 97%;
+    background-image: url(haldi-bg1.jpeg);
+    background-size: 100% 100%;
+    transition: transform 0.4s;
+}
+.haldi-left-image2:hover, .haldi-left-image1:hover, .haldi-right-image2:hover, .haldi-right-image1:hover {
+    transform: scale(1.07);
+}

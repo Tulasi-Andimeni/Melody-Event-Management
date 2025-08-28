@@ -1,0 +1,341 @@
+/* .service-background{
+    height: 230vh;
+    width: 100vw;
+    background-color: #F8EDE3;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; 
+    flex-direction: column;
+    animation: fadeIn 1s ease-in forwards;
+} */
+body {
+  overflow-x: hidden;
+}
+
+.service-background {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #F8EDE3;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  animation: fadeIn 1s ease-in forwards;
+  /* padding: 2rem 1rem 4rem 1rem;  */
+  box-sizing: border-box;
+}
+
+.service-down {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* space between rows */
+  flex-wrap: wrap;
+}
+
+.serivce-head{
+    height: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.serivce-head h4{
+    font-family: 'Segoe UI', sans-serif;
+    color: #8D493A;
+    font-size: 23px;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.525);
+
+}
+.serivce-head-2{
+    height:60px ;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.serivce-head-2 h2{
+   font-size: 35px;
+   font-family: 'Times New Roman', Times, serif;
+   text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.422);
+   
+}
+.service-matter{
+    height: 130px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+}
+.service-matter p{
+    font-size: 17px;
+    font-family: 'Segoe UI', sans-serif;
+}
+/* .service-down{
+    height: 200vh ;
+    width: 100%;
+    /* border:  1px solid black; 
+    flex-direction: column;
+/* }  */
+.service-cards-row1{
+    height: 450px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* 👈 Add this */
+    /* gap: 10px;    */
+
+}
+.card-1{
+    height: 90%;
+    width: 23%; 
+    background-color: #8d493aa4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 15px;
+    transition: transform 0.4s;
+}
+.card-1:hover{
+    transform: translateY(-10px);
+}
+.card-top{
+    height: 50%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card-image{
+    height: 96%;
+    width: 96%;
+    background-image: url(./marriage2.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    transform: 2s ;
+}
+/* .card-image:hover{
+    transform: scale(1.1);
+}
+. */
+.card-image-bday{
+    height: 96%;
+    width: 96%;
+    background-image: url(./bday-bg54.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.card-image-private{
+    height: 96%;
+    width: 96%;
+    background-image: url(./dj-bg4.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.card-image-baby{
+    height: 96%;
+    width: 96%;
+    background-image: url(./babyshower2.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.card-image-desti{
+    height: 96%;
+    width: 96%;
+    background-image: url(./destination.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.card-image-photo{
+    height: 96%;
+    width: 96%;
+    background-image: url(./photo4.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.card-image-video{
+    height: 96%;
+    width: 96%;
+    background-image: url(./stage-bg7.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.card-matter{
+    height: 30%;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.card-matter h3{
+    font-size: 22px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    font-style: oblique;
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.548);
+
+
+}
+.card-matter p{
+    font-size: 18px;
+    text-align: justify;
+    font-style: italic;
+    color: black;
+}
+.card-down-service{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+   text-decoration: none;
+}
+.card-down{
+    height: 40px;
+    width: 150px;
+    border: 1px solid #8D493A;
+    font-size: 19px;
+    background-color: #F8EDE3;
+    border-radius: 20px ;
+    color: #8D493A;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+ }
+ .card-down:hover{
+    background-color:#8D493A;
+    color: #F8EDE3;
+    border: 1px solid #F8EDE3;
+ }
+
+
+ @media (max-width: 600px) {
+    .service-background {
+      height: auto;
+      padding-bottom: 50px;
+    }
+  
+    .service-matter {
+      width: 90%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .service-cards-row1 {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      gap: 20px;
+    }
+  
+    .card-1 {
+      width: 90%;
+      height: auto;
+    }
+  
+    .card-top {
+      height: 200px;
+    }
+  
+    .card-image,
+    .card-image-bday,
+    .card-image-private,
+    .card-image-baby,
+    .card-image-desti,
+    .card-image-photo,
+    .card-image-video {
+      height: 100%;
+      width: 100%;
+    }
+  
+    .card-matter {
+      width: 90%;
+      gap: 10px;
+    }
+  
+    .card-down {
+      width: 120px;
+      font-size: 16px;
+    }
+  
+    .serivce-head h4,
+    .serivce-head-2 h2 {
+      font-size: 18px;
+      text-align: center;
+    }
+    .service-matter p{
+      font-size: 10px;
+      
+  }
+  }
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    .service-cards-row1 {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      height: auto;
+    }
+    .service-matter p{
+      font-size: 13px;
+      
+  }
+  
+    .card-1 {
+      width: 45%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .card-matter {
+      width: 90%;
+    }
+  
+    .card-top {
+      height: 250px;
+    }
+  
+    .card-down {
+      font-size: 18px;
+      width: 140px;
+    }
+  
+    .serivce-head h4 {
+      font-size: 20px;
+    }
+  
+    .serivce-head-2 h2 {
+      font-size: 28px;
+      text-align: center;
+    }
+  }
+
+  
+  @media (min-width: 1025px) {
+    .card-1 {
+      transition: transform 0.3s ease;
+    }
+  
+    .card-1:hover {
+      transform: scale(1.05);
+    }
+  
+    .card-matter p {
+      font-size: 16px;
+    }
+  
+    .card-down {
+      font-size: 18px;
+    }
+  }
+  

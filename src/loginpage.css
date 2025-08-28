@@ -1,0 +1,129 @@
+.login-background{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    background-image: url(./parivateparty2.jpeg);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    opacity: 150px;
+}
+.login-contain{
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+    display:flex ;
+    flex-direction: row;
+
+}
+.login-left{
+    height: 100%;
+    width: 60%;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    background: #8d493a46;
+    opacity: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(39, 146, 239); */
+
+}
+.login-right{
+    height: 100%;
+    width: 40%;
+    background: transparent;
+    backdrop-filter: blur(3px);
+    background: #8d493a46;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+   
+}
+.login-boxmatter{
+    height: 83%;
+    width: 89%;
+    /* background-color: aliceblue; */
+}
+.matter-line1{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-family: 'Segoe UI', sans-serif;
+    color: blueviolet ;
+    /* font-weight: bold; */
+}
+.matter-line2{
+    height: 170px;
+}
+.matter-line2 h1{
+    font-size: 40px;
+    color: aliceblue;
+  
+}
+.matter-line3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.matter-line3 p{
+    font-size: 20px;
+    text-align: justify;
+    color: aliceblue;
+}
+.input-box{
+    height: 83%;
+    width: 84%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+
+}
+input{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+}
+input:hover{
+    border: 4px solid blueviolet;
+}
+.input-box ::placeholder{
+   position: relative;
+   left: 10px;
+   font-size: 16px;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.message-box{
+    height: 150px;
+}
+.input-type ::placeholder{
+    position: relative;
+    bottom: 58px;
+}
+.input-box button{
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: blueviolet;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 10px;
+    position: relative;
+    right: 128px;
+    top: 10px;
+
+}
+.input-box button:hover{
+    color: blueviolet;
+    background-color: white;
+    border:  2px solid blueviolet;
+}

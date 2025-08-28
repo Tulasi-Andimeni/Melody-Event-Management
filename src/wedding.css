@@ -1,0 +1,429 @@
+.wedding-background{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(43, 255, 0);
+    background-image: url(./marriage2.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    animation: fadeIn 1s ease-in forwards;
+
+}
+.wedding-background div{
+    height: 100%;
+    width: 100%;
+    /* background: #8d493a1e; */
+    backdrop-filter: blur(4px);
+}
+.wedding-background div button{
+    height: 43px;
+    width: 150px;
+    border: 1px solid ivory;
+    font-size: 19px;
+    background-color: #8B5A3C;
+    border-radius: 8px ;
+    color: ivory;
+    font-family:'Segoe UI', sans-serif;
+    font-style: oblique;
+    font-weight: 600;
+    position: relative;
+    top: 420px;
+    left: 120px;
+}
+.wedding-background div .wedding-button{
+    height: 40px;
+    width: 150px;
+    border: 2px solid #8B5A3C;
+    font-size: 19px;
+    /* background-color: ivory; */
+    background: transparent;
+    backdrop-filter: blur(3px);
+    border-radius: 8px ;
+    color:ivory;
+   font-family:'Segoe UI', sans-serif;
+    /* font-style: oblique; */
+    font-weight: 600;
+    position: relative;
+    top: 420px;
+    left: 150px;
+   
+}
+.wedding-background div button:hover , .wedding-button:hover{
+    background-color: ivory;
+   color:#8B5A3C;
+   border: 1px solid #8B5A3C;
+}
+.wedding-background div h1{
+    font-size: 50px;
+    position: relative;
+    top: 390px;
+    color: ivory;
+    font-style: oblique;
+   font-family:'Segoe UI', sans-serif;
+    left: 100px;
+}
+.wedding-matter1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F8EDE3;
+    display: flex;
+    flex-direction: row;
+    animation: fadeIn 1s ease-in forwards;
+    align-items: center;
+    
+}
+.matter1-left{
+    height: 85%;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.matter1-right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.4s;
+}
+.right-image{
+    height: 400px;
+    width: 530px;
+    /* border: 1px solid black; */
+    background-image: url(./marriage-3.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 10px;
+   
+}
+.matter1-right:hover{
+    transform: scale(1.08);
+}
+.left-para{
+    height: 450px;
+    width: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+.left-para h2{
+    font-size: 30px;
+    font-family:'Segoe UI', sans-serif;
+    color: #8B5A3C;
+    text-shadow: 5px 5px 13px rgba(0, 0, 0, 0.514);
+    
+}
+.left-para p{
+    font-size: 20px;
+    font-family:'Segoe UI', sans-serif;
+    font-style: oblique;
+    text-align: justify;
+    
+}
+.wedding-video{
+    height: 100vh;
+    width: 100vw;
+    background-color: #D8CAB8    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 2s ease;
+    
+}
+.video-box{
+    height: 80vh;
+    width: 90vw;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+}
+.video-box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+/* .wedding-cards{
+    height: auto;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #F8EDE3;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+} */
+
+.wedding-cards {
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    background-color: #F8EDE3;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px; /* Optional spacing between cards */
+    padding: 40px 0; /* Optional spacing for top/bottom */
+}
+.card1-row{
+    height: 380px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-1{
+    height: 85%;
+    width: 28%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.388);
+    border-radius: 18px;
+    transition: transform 0.4s;
+
+}
+.box-1:hover{
+    transform: translateY(-10px);
+}
+.box-top{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(./wedding-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    border-radius: 18px 18px 0 0;
+}
+.box-down{
+    
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+
+
+}
+.box-down button{
+    height: 40px;
+    width: 150px;
+    font-size: 17px;
+    font-family:'Segoe UI', sans-serif;
+    border-radius: 20px;
+    color: ivory;
+    font-weight: 600;
+    position: relative;
+    left: 90px;
+    background-color: #8B5A3C;
+    border: 1.3px solid #8B5A3C;
+
+}
+.box-down button:hover{
+    color: #8B5A3C;
+    background-color: ivory;
+}
+.box-down h2{
+    font-family:'Segoe UI', sans-serif;
+    text-indent: 10px;
+}
+.box-top2{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(./haldi.jpeg);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    border-radius: 18px 18px 0 0;
+}
+.box-top3{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(./dance.jpeg);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    border-radius: 18px 18px 0 0;
+}
+.box-top4{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(./car.jpeg);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    border-radius: 18px 18px 0 0;
+}
+.box-top5{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(./makeup11.jpeg);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    border-radius: 18px 18px 0 0;
+}
+.box-top6{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(./outfit.jpeg);
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    border-radius: 18px 18px 0 0;
+}
+
+
+/* Small Devices (phones, 600px and below) */
+@media only screen and (max-width: 600px) {
+    .wedding-background h1 {
+        font-size: 30px;
+        left: 20px;
+        top: 300px;
+    }
+
+    .wedding-background div button,
+    .wedding-background div .wedding-button {
+        width: 120px;
+        font-size: 16px;
+        top: 320px;
+        left: 20px;
+    }
+
+    .wedding-matter1 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .matter1-left,
+    .matter1-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .left-para {
+        width: 90%;
+        height: auto;
+        gap: 15px;
+    }
+
+    .left-para h2 {
+        font-size: 22px;
+    }
+
+    .left-para p {
+        font-size: 16px;
+    }
+
+    .right-image {
+        width: 90%;
+        height: 250px;
+    }
+
+    .video-box {
+        width: 95vw;
+        height: 50vh;
+    }
+
+    .wedding-cards {
+        height: auto;
+    }
+
+    .card1-row {
+        flex-direction: column;
+        gap: 25px;
+        height: auto;
+    }
+
+    .box-1 {
+        width: 90%;
+    }
+
+    .box-down button {
+        left: 0;
+        margin: auto;
+    }
+}
+
+
+/* Medium Devices (Tablets, 600px - 992px) */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    .wedding-background h1 {
+        font-size: 40px;
+        left: 50px;
+        top: 350px;
+    }
+
+    .wedding-background div button,
+    .wedding-background div .wedding-button {
+        width: 130px;
+        font-size: 17px;
+        top: 370px;
+        left: 50px;
+    }
+
+    .wedding-matter1 {
+        flex-direction: column;
+    }
+
+    .matter1-left,
+    .matter1-right {
+        width: 100%;
+    }
+
+    .left-para {
+        width: 90%;
+    }
+
+    .right-image {
+        width: 90%;
+        height: 300px;
+    }
+
+    .video-box {
+        width: 95vw;
+        height: 60vh;
+    }
+
+    .card1-row {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .box-1 {
+        width: 45%;
+    }
+
+    .box-down button {
+        left: 0;
+        margin: auto;
+    }
+}
+
+
+/* Large Devices (Desktops, above 992px) */
+@media only screen and (min-width: 993px) {
+    /* You can leave the existing styles as is */
+}
