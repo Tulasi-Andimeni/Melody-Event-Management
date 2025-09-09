@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100vw;
     background-color: brown;
-    background-image: url(./baby-bg77.jpeg);
+    background-image: url('/baby-bg77.jpeg');
     backdrop-filter: blur(5px);
     background-size: 100% 100%;
     animation: fadeIn 1s ease-in forwards;
@@ -76,7 +76,7 @@
     height: 79%;
     width: 35% ;
     border-radius: 15px;
-    background-image: url(baby-10.jpeg);
+    background-image: url('/baby-10.jpeg');
     background-size: 100% 100%;
 }
 .baby-matter-left:hover{
@@ -158,7 +158,7 @@ video{
     width: 100%;
    
     background-color: red;
-    background-image: url(./baby-bg-6.jpeg);
+    background-image: url('/baby-bg-6.jpeg');
     background-size: 100% 100%;
     transform: rotate(-180deg);
     position: relative;
@@ -170,7 +170,7 @@ video{
     width: 100%;
     background-color: red;
     position: relative;
-    background-image: url(./babyshower9.jpeg);
+    background-image: url('/babyshower9.jpeg');
     background-size: 100% 100%;
     transform: rotate(-180deg);
     bottom: 30px;
@@ -180,7 +180,7 @@ video{
     height: 100%;
     width: 100%;
     background-color: red;
-    background-image: url(./cake1.jpeg);
+    background-image: url('/cake1.jpeg');
     background-size: 100% 100%;
     transform: rotate(-180deg);
     position: relative;
