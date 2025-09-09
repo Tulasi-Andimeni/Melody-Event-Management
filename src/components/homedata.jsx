@@ -26,6 +26,7 @@ import About from '../about';
 
 
 
+
 function HomeData() {
     return (
         <div>

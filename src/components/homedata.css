@@ -2,38 +2,12 @@
     min-height: 100vh;
     width: 100vw;
     background-color: red;
-    background-image: url(bride22.jpeg);
+     background-image: url('/bride22.jpeg');
     background-size: 100% 100%;
     background-attachment: fixed;
-    /* position: relative;
-    bottom: 22px; */
-    /* position: relative;
-    background-image: url(./night-bg-1.jpeg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat; */
-    /* animation: bgChange 20s linear infinite; */
+
 }
-/* @keyframes bgChange{
-   0%{
-      background-image: url(./marriage1.jpeg);
-   }
-   20%{
-    background-image: url(./HBD-bg1.jpeg);
-   }
-   40%{
-    background-image: url(./marriage2.jpeg);
-   }
-   60%{
-    background-image: url(./baby-HBD1.jpeg);
-   }
-   80%{
-    background-image: url(./babyshower1.jpeg);
-   }
-   100%{
-    background-image: url(./marriage2.jpeg);
-   }
-} */
+
 .data-bg{
    height: 100%;
    width: 100%;

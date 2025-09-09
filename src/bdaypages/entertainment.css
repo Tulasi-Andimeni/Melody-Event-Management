@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100vw;
     background-color: blue;
-    background-image: url(./game2.jpeg);
+    background-image: url('/game2.jpeg');
     background-size: 100% 100%;
     animation: fadeIn 2s ease-in forwards;
 }
@@ -65,7 +65,7 @@
     height: 80%;
     width: 40%;
     border-radius: 55px;
-    background-image: url(./photo-booth.jpeg);
+    background-image: url('/photo-booth.jpeg');
     background-size: 100% 100%;
     transition: transform 0.4s;
 }
@@ -126,7 +126,7 @@
     width: 20%;
     position: relative;
     bottom: 50px;
-    background-image: url(./game1.jpeg);
+    background-image: url('/game1.jpeg');
     background-size: 100% 100%;
     border-radius: 20px;
     transition: transform 0.4s;
@@ -139,7 +139,7 @@
     width: 20%;
     position: relative;
     top: 50px;
-    background-image: url(./enterinment.jpeg);
+    background-image: url('/enterinment.jpeg');
     background-size: 100% 100%;
     border-radius: 20px;
     transition: transform 0.4s;
@@ -149,7 +149,7 @@
     width: 20%;
     position: relative;
     bottom: 50px;
-    background-image: url(./dancs-bg33.jpeg);
+    background-image: url('/dancs-bg33.jpeg');
     background-size: 100% 100%;
     border-radius: 20px;
     transition: transform 0.4s;
@@ -159,7 +159,7 @@
     width: 20%;
     position: relative;
     top: 50px;
-    background-image: url(./dance27.jpeg);
+    background-image: url('/dance27.jpeg');
     background-size: 100% 100%;
     border-radius: 20px;
     transition: transform 0.4s;

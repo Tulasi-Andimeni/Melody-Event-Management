@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100vw;
     background-color: aqua;
-    background-image: url(haldi.jpeg);
+    background-image: url('/haldi.jpeg');
     background-size: 100% 100%;
     background-attachment: fixed;
     animation: fadeIn 1s ease-in forwards;
@@ -70,14 +70,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./haldi-pic.jpeg);
+    background-image: url('/haldi-pic.jpeg');
     background-size: 100% 100%;
     transition: transform 0.4s;
 }
 .haldi-right-image1 div{
     height: 94%;
     width: 97%;
-    background-image: url(haldi-bg1.jpeg);
+    background-image: url('/haldi-bg1.jpeg');
     background-size: 100% 100%;
     transition: transform 0.4s;
 }
@@ -88,7 +88,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./desti44.jpeg);
+    background-image: url('/desti44.jpeg');
     background-size: 100% 100%;
     transition: transform 0.4s;
 }
@@ -167,14 +167,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./haldi-22.jpeg);
+    background-image: url('/haldi-22.jpeg');
     background-size: 100% 100%;
     transition: transform 0.4s;
 }
 .haldi-left-image1 div{
     height: 94%;
     width: 97%;
-    background-image: url(haldi-bg1.jpeg);
+    background-image: url('/haldi-bg1.jpeg');
     background-size: 100% 100%;
     transition: transform 0.4s;
 }
@@ -185,14 +185,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(./haldi-55.jpeg);
+    background-image: url('/haldi-55.jpeg');
     background-size: 100% 100%;
     transition: transform 0.4s;
 }
 .haldi-left-image2 div{
     height: 94%;
     width: 97%;
-    background-image: url(haldi-bg1.jpeg);
+    background-image: url('/haldi-bg1.jpeg');
     background-size: 100% 100%;
     transition: transform 0.4s;
 }

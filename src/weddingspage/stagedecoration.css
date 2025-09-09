@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100vw;
     background-color: aquamarine;
-    background-image: url(./stage-bg4.jpeg) ;
+    background-image: url('/stage-bg4.jpeg') ;
     background-attachment: fixed;
     background-size:100% 100%;
     background-repeat: no-repeat;
@@ -103,7 +103,7 @@
     height: 45%;
     width: 100%;
     
-    background-image: url(./muslims-weddingbg2.jpeg);
+    background-image: url('/muslims-weddingbg2.jpeg');
     background-position: 50% 50%;
     object-fit: cover;
     background-size: cover;
@@ -111,7 +111,7 @@
 }
 .stageright-image:hover{
     transform: scale(1.05);
-    background-image: url(stage-bg2.jpeg);
+    background-image: url('/stage-bg2.jpeg');
     background-size: 100% 100%;
     border-radius: 15px;
 }
@@ -119,7 +119,7 @@
     height: 45%;
     width: 100%;
    
-    background-image: url(./marriage-5.jpeg);
+    background-image: url('/marriage-5.jpeg');
     background-position: 50% 50%;
     object-fit: cover;
     background-size: 100% 100%;
@@ -127,7 +127,7 @@
 }
 .stageright-image2:hover{
     transform: scale(1.05);
-    background-image: url(stage-bg4.jpeg);
+    background-image: url('/stage-bg4.jpeg');
     background-size: 100% 100%;
     border-radius: 15px;
 }
@@ -168,13 +168,13 @@
 .stagedown-image{
     height: 100%;
     width: 100%;
-    background-image: url(recipation2.jpeg);
+    background-image: url('/recipation2.jpeg');
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .stagedown-image:hover{
     transform: scale(1.05);
-    background-image: url(reciption.jpeg);
+    background-image: url('/reciption.jpeg');
     background-size: 100% 100%;
     border-radius: 15px;
 }
@@ -227,13 +227,13 @@
 .stagematter2-right{
     height: 80%;
     width: 37%;
-    background-image: url(stage-bg8.jpeg);
+    background-image: url('/stage-bg8.jpeg');
     background-size: 100% 100%;
     border-radius: 15px;
 }
 .stagematter2-right:hover{
     transform: scale(1.03);
-    background-image: url(stage-bg6.jpeg);
+    background-image: url('/stage-bg6.jpeg');
     background-size: 100% 100%;
     border-radius: 15px;
 }

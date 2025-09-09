@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100vw;
     background-color: rgb(43, 255, 0);
-    background-image: url(./marriage2.jpeg);
+    background-image: url('/marriage2.jpeg');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -93,7 +93,7 @@
     height: 400px;
     width: 530px;
     /* border: 1px solid black; */
-    background-image: url(./marriage-3.jpeg);
+    background-image: url('/marriage-3.jpeg');
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 10px;
@@ -201,7 +201,7 @@
     height: 70%;
     width: 100%;
     /* border: 1px solid black; */
-    background-image: url(./wedding-bg.jpeg);
+    background-image: url('/wedding-bg.jpeg');
     background-position: center;
     background-size: cover;
     object-fit: contain;
@@ -242,7 +242,7 @@
     height: 70%;
     width: 100%;
     /* border: 1px solid black; */
-    background-image: url(./haldi.jpeg);
+    background-image: url('/haldi.jpeg');
     background-position: center;
     background-size: cover;
     object-fit: contain;
@@ -253,7 +253,7 @@
     height: 70%;
     width: 100%;
     /* border: 1px solid black; */
-    background-image: url(./dance.jpeg);
+    background-image: url('/dance.jpeg');
     background-position: center;
     background-size: cover;
     object-fit: contain;
@@ -264,7 +264,7 @@
     height: 70%;
     width: 100%;
     /* border: 1px solid black; */
-    background-image: url(./car.jpeg);
+    background-image: url('/car.jpeg');
     background-position: center;
     background-size: cover;
     object-fit: contain;
@@ -275,7 +275,7 @@
     height: 70%;
     width: 100%;
     /* border: 1px solid black; */
-    background-image: url(./makeup11.jpeg);
+    background-image: url('/makeup11.jpeg');
     background-position: center;
     background-size: cover;
     object-fit: contain;
@@ -286,7 +286,7 @@
     height: 70%;
     width: 100%;
     /* border: 1px solid black; */
-    background-image: url(./outfit.jpeg);
+    background-image: url('/outfit.jpeg');
     background-position: center;
     background-size: cover;
     object-fit: contain;
