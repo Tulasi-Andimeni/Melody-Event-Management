@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100vw;
     background-color: blue;
-    background-image: url(./stage-bg7.jpeg);
+    background-image: url('/stage-bg7.jpeg');
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;

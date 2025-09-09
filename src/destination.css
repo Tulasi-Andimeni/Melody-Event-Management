@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100vw;
     background-color: red;
-    background-image: url(./wedding-bg4.jpeg);
+    background-image: url('/wedding-bg4.jpeg');
     background-size: 100% 100%;
     /* object-fit: cover; */
     background-attachment: fixed;
@@ -115,7 +115,7 @@
 .desti-box1-img{
     height: 100%;
     width: 100%;
-    background-image: url(./wedding-bg3.jpeg);
+    background-image: url('/wedding-bg3.jpeg');
     transform: rotate(-180deg);
     background-size: 100% 100%;
     position: relative;
@@ -135,7 +135,7 @@
     height: 100%;
     width: 100%;
     transform: rotate(-180deg);
-    background-image: url(./wedding-bg4.jpeg);
+    background-image: url('/wedding-bg4.jpeg');
     background-size: 100% 100%;
     position: relative;
     top: 20px;
@@ -195,7 +195,7 @@
 .desti-box1-top div{
     height: 90%;
     width: 90%;
-    background-image: url(./desti44.jpeg);
+    background-image: url('/desti44.jpeg');
     background-size: 100% 100%;
     border-radius: 10px;
 
@@ -210,7 +210,7 @@
 .desti-box2-top div{
     height: 90%;
     width: 90%;
-    background-image: url(./dance.jpeg);
+    background-image: url('/dance.jpeg');
     background-size: 100% 100%;
     border-radius: 10px;
 
@@ -226,7 +226,7 @@
 .desti-box3-top div{
     height: 90%;
     width: 90%;
-    background-image: url(./stage-bg7.jpeg);
+    background-image: url('/stage-bg7.jpeg');
     background-size: 100% 100%;
     border-radius: 10px;
 
@@ -242,7 +242,7 @@
 .desti-box4-top div{
     height: 90%;
     width: 90%;
-    background-image: url(./gift-2.jpeg);
+    background-image: url('/gift-2.jpeg');
     background-size: 100% 100%;
     border-radius: 10px;
 
