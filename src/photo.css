@@ -3,7 +3,7 @@
     height: 100vh;
     width: 100vw;
     background-color: blue;
-    background-image: url(./photo4.jpeg);
+    background-image: url('/photo4.jpeg');
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
@@ -125,7 +125,7 @@
     width: 18%;
     position: relative;
     top: 15px;
-    background-image: url(./destination.jpeg);
+    background-image: url('/destination.jpeg');
     background-size: 100% 100%; 
 }
 .photo-card-box2{
@@ -133,7 +133,7 @@
     width: 18%;
     position: relative;
     top: 15px;
-    background-image: url(./photo2.jpeg);
+    background-image: url('/photo2.jpeg');
     background-size: cover;
 }
 .photo-card-box3{
@@ -141,7 +141,7 @@
     width: 25%;
     position: relative;
     top: 15px;
-    background-image: url(bday-bg44.jpeg);
+    background-image: url('/bday-bg44.jpeg');
     background-size: cover;
 }
 .photo-card-box4{
@@ -149,7 +149,7 @@
     width: 20%;
     position: relative;
     top: 15px;
-    background-image: url(./bride22.jpeg);
+    background-image: url('/bride22.jpeg');
     background-size: cover;
 }
 .photo-card-box5{
@@ -157,7 +157,7 @@
     width: 13%;
     position: relative;
     top: 15px;
-    background-image: url(./baby-10.jpeg);
+    background-image: url('/baby-10.jpeg');
     background-size: cover;
 }
 .photo-card-box6{
@@ -165,7 +165,7 @@
     width: 18%;
     position: relative;
     bottom: 83px;
-    background-image: url(./photo3.jpeg);
+    background-image: url('/photo3.jpeg');
     background-size: cover;
 }
 .photo-card-box7{
@@ -173,7 +173,7 @@
     width: 18%;
     position: relative;
     top: 30px;
-    background-image: url(./baby-bg77.jpeg);
+    background-image: url('/baby-bg77.jpeg');
     background-size: cover;
 }
 .photo-card-box8{
@@ -181,7 +181,7 @@
     width: 45%;
     position: relative;
     bottom: 130px;
-    background-image: url(./photo4.jpeg);
+    background-image: url('/photo4.jpeg');
     background-size: cover;
 }
 .photo-card-box9{
@@ -189,7 +189,7 @@
     width: 13%;
     position: relative;
     bottom: 50px;
-    background-image: url(./photo1.jpeg);
+    background-image: url('/photo1.jpeg');
     background-size: cover;
 }
 
@@ -205,33 +205,33 @@
 .photo-card-box10{
     height: 50%;
     width: 32%;
-    background-image: url(./dance2.jpeg);
+    background-image: url('/dance2.jpeg');
     background-size: cover;
 }
 .photo-card-box11{
     height: 50%;
     width: 31.5%;
-    background-image: url(./makeup11.jpeg);
+    background-image: url('/makeup11.jpeg');
     background-size: cover;
 }
 .photo-card-box12{
     height: 50%;
     width: 30%;
-    background-image: url(./haldi.jpeg);
+    background-image: url('/haldi.jpeg');
     background-size: cover;
 }
 .photo-card-box13{
     height: 43%;
     width: 50%;
-    background-image: url(./reciption.jpeg);
+    background-image: url('/reciption.jpeg');
     background-size: 100% 100%;
 }
 .photo-card-box14{
     height: 43%;
     width: 45%;
-    background-image: url(./marriage1.jpeg);
+    background-image: url('/marriage1.jpeg');
     background-size: 100% 100%;
-} */
+} 
  
 .photo-card-box1:hover, .photo-card-box2:hover, .photo-card-box3:hover, .photo-card-box4:hover, .photo-card-box5:hover, .photo-card-box6:hover, .photo-card-box7:hover, .photo-card-box8:hover, .photo-card-box9:hover, .photo-card-box10:hover, .photo-card-box11:hover, .photo-card-box12:hover, .photo-card-box13:hover, .photo-card-box14:hover {
     transform: scale(1.05); /* Slight zoom effect on hover */

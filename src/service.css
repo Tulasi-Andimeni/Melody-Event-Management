@@ -115,7 +115,7 @@ body {
 .card-image{
     height: 96%;
     width: 96%;
-    background-image: url(./marriage2.jpeg);
+    background-image: url('/marriage2.jpeg');
     background-position: 50% 50%;
     background-size: cover;
     transform: 2s ;
@@ -127,42 +127,42 @@ body {
 .card-image-bday{
     height: 96%;
     width: 96%;
-    background-image: url(./bday-bg54.jpeg);
+    background-image: url('/bday-bg54.jpeg');
     background-position: 50% 50%;
     background-size: cover;
 }
 .card-image-private{
     height: 96%;
     width: 96%;
-    background-image: url(./dj-bg4.jpeg);
+    background-image: url('/dj-bg4.jpeg');
     background-position: 50% 50%;
     background-size: cover;
 }
 .card-image-baby{
     height: 96%;
     width: 96%;
-    background-image: url(./babyshower2.jpeg);
+    background-image: url('/babyshower2.jpeg');
     background-position: 50% 50%;
     background-size: cover;
 }
 .card-image-desti{
     height: 96%;
     width: 96%;
-    background-image: url(./destination.jpeg);
+    background-image: url('/destination.jpeg');
     background-position: 50% 50%;
     background-size: cover;
 }
 .card-image-photo{
     height: 96%;
     width: 96%;
-    background-image: url(./photo4.jpeg);
+    background-image: url('/photo4.jpeg');
     background-position: 50% 50%;
     background-size: cover;
 }
 .card-image-video{
     height: 96%;
     width: 96%;
-    background-image: url(./stage-bg7.jpeg);
+    background-image: url('/stage-bg7.jpeg');
     background-position: 50% 50%;
     background-size: cover;
 }
