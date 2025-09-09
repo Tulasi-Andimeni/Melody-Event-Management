@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100vw;
     background-color: aqua;
-    background-image: url(./parivateparty2.jpeg);
+    background-image: url('/parivateparty2.jpeg');
     background-attachment: fixed;
     background-position: 50% 50%;
     background-size: cover;

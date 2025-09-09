@@ -214,7 +214,7 @@
     height: 100vh;
     width: 100vw;
     background-color: aqua;
-    background-image: url(parivateparty2.jpeg);
+    background-image: url('/parivateparty2.jpeg');
     background-size: 100% 100%;
     background-attachment: fixed;
 }
@@ -323,7 +323,7 @@
 .party-matter-right div{
     height: 85%;
     width: 90%;
-    background-image: url(privateparty1.jpeg);
+    background-image: url('/privateparty1.jpeg');
     background-size: 100% 100%;
     transition: transform 0.4s;
 }
